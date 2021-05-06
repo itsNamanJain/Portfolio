@@ -222,8 +222,10 @@ footer a,#brand{
         font-size: 1rem;
     }
     .About{
-        height: 42rem;
+        height: 50rem;
     }
+    .bio{
+        margin-top: 4rem;
     footer{
         min-height: 37rem;
     }
