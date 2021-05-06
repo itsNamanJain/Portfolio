@@ -21,7 +21,7 @@ body{
     color: rgb(182, 47, 126);
 }
 #myBtn:hover{
-    text-shadow: 3px 3px 16px #f7abe4;
+    background: grey;
 }
 header{
     background: #354243;
@@ -229,6 +229,10 @@ footer a,#brand{
     }
     footer{
         height: 42rem;
+    }
+    #myBtn{
+        font-size: 0.1px;
+        border: none;
     }
     .C1,.C2{
         float: none;
