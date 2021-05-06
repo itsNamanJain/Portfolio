@@ -1,0 +1,233 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.btn{
+    position: fixed;
+    right: 3.1rem;
+    bottom: 4.36rem;
+    font-size: 40px;
+}
+.btn a{
+    color: rgb(182, 47, 126);
+}
+.btn a:hover{
+    text-shadow: 3px 3px 16px #f7abe4;
+}
+header{
+    background: #354243;
+    color: #ffffff;
+    padding-top: 1.9rem;
+    min-height: 12vh;
+    border-bottom: #e8491d 3px solid;
+}
+header h1{
+    float: left;
+    margin: 0;
+    
+}
+header nav{
+    float: right;
+    margin-top: 0.6rem;
+}
+header a,footer a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.06rem;
+}
+header a:hover{
+    display: block;
+    font-weight: bold;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline;
+    float: left;
+    padding-right: 2rem;
+}
+.front{
+    padding-top: 3.1rem;
+    min-height: 75vh;
+}
+.pic{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+.pic img{
+    width: 18rem;
+    margin: 2rem;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+}
+.bio{
+    float: right;
+    width: 50%;
+    overflow: hidden;
+    margin-top: 6.25rem;
+}
+.bio p{
+    margin-left: 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.About{
+    text-align: center;
+    height: 45rem;
+    margin-top: 1rem;
+    background: darkgrey;
+}
+.About h1, .contact h1{
+    font-size: 3.25rem;
+}
+.About p{
+    font-size: 1.50rem;
+    margin: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-overflow: hidden;
+
+}
+.About aside{
+    float: right;
+}
+.gallery{
+    min-height: 60vh;
+    display: inline;
+}
+.gallery h4{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.gallery img{
+    display: block;
+    margin: 2rem 0.2rem;
+    border: 2px solid black;
+    border-radius: 0.6rem;
+    padding: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+footer{
+    height: 25rem;
+    background: #252727;
+    color: white;
+    padding-top: 2rem;
+}
+footer h4{
+    font-size: 2rem;
+}
+footer p{
+    font-size: 1.1rem;
+    color: gray;
+}
+.C2 a{
+    font-size: 2rem;
+}
+footer a,#brand{
+    color: rgb(182, 47, 126);
+}
+.C1 a{
+    text-transform: lowercase;
+}
+.C1{
+    float: left;
+}
+.C2{
+    float: right;
+}
+#Copy p{
+    text-align: center;
+    margin-top: 3.1rem;
+}
+@media screen and (max-width: 1260px){
+    .bio p{
+        margin-top: 3rem;
+    }
+    .gallery li{
+        display: block;
+        float: none;
+    }
+    .gallery img{
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        margin-bottom: 2rem;
+}}
+@media screen and (max-width: 863px) {
+    .gallery a{
+        align-items: center;
+    }
+    .gallery img{
+        width: 20rem;
+    }
+    .bio p{
+        margin-top: 2rem;
+    }
+    .pic{
+        float: none; 
+        width: 100%;       
+    }
+    .pic img,.gallery img{
+        margin: 0 auto;
+        display: block;
+        width: 50%;
+        margin-bottom: 2rem;
+    }
+    .About p{
+        font-size: 1.25rem;
+    }
+    .bio{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    .gallery li{
+        display: block;
+        float: none;
+    }
+}
+@media screen and (max-width: 670px){
+    header h1{
+        float: none;
+        text-align: center;
+    }
+    header nav {
+        position: absolute;
+        left: 0px;
+        height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    header nav ul {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+    header{
+        min-height: 8rem;
+    }
+    .About p{
+        font-size: 1rem;
+    }
+    .About{
+        height: 42rem;
+    }
+    footer{
+        min-height: 37rem;
+    }
+    .C1,.C2{
+        float: none;
+    }
+}
