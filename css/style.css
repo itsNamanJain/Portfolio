@@ -226,8 +226,9 @@ footer a,#brand{
     }
     .bio{
         margin-top: 4rem;
+    }
     footer{
-        height: 50rem;
+        height: 42rem;
     }
     .C1,.C2{
         float: none;
