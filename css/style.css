@@ -11,16 +11,16 @@ body{
     margin: auto;
     overflow: hidden;
 }
-.btn{
+#myBtn{
     position: fixed;
     right: 3.1rem;
     bottom: 4.36rem;
     font-size: 40px;
 }
-.btn a{
+#myBtn{
     color: rgb(182, 47, 126);
 }
-.btn a:hover{
+#myBtn:hover{
     text-shadow: 3px 3px 16px #f7abe4;
 }
 header{
